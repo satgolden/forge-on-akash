@@ -1,7 +1,7 @@
 version: "2.0"
 services:
   app:
-    image: satgolden/sdforge:v3
+    image: satgolden/sdforge:v4
     expose:
       - port: 9999
         as: 80
@@ -21,7 +21,7 @@ profiles:
             vendor:
               nvidia:
         storage:
-          - size: 30Gi
+          - size: 50Gi
   placement:
     westcoast:
       pricing:
